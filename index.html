@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>skel</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <div class="wrap1">
+	<h1><a target="_blank" href="https://en.wikipedia.org/wiki/Caesar_cipher">Ceasars Cipher</a></h1>
+	<div class="label">
+	  <label for="item1">Enter a phrase:</label>
+	  <input type="text" name="item" id="item1">
+	  <button id="btnCeas">Convert</button>
+	</div>
+	<p class="result" id="paraCeas"> </p>
+      </div>
+    </section>
+    <section>
+      <div class="wrap1">
+	<h1>Shopping list</h1>
+	<div class="label">
+	  <label for="item2">Enter a new item:</label>
+	  <input type="text" name="item2" id="item2">
+	  <button id="btnShop">Add</button>
+	</div>
+	<ol id="listShop"></ol>
+      </div>
+    </section>
+    <section>
+      <div class="wrap1">
+	<h1><a target="_blank" href="https://en.wikipedia.org/wiki/Palindrome">Palindrome</a> checker</h1>
+	<div class="label">
+	  <label for="item3">Enter a word:</label>
+	  <input type="text" name="item3" id="item3">
+	  <button id="btnPal">Check</button>
+	</div>
+	<p class="result" id="paraPal"></p>
+      </div>
+    </section>
+    <section>
+      <div class="wrap1">
+	<h1><a target="_blank" href="https://en.wikipedia.org/wiki/Roman_numerals">Roman numerals</a> converter</h1>
+	<div class="label">
+	  <label for="item4">Enter a number:</label>
+	  <input type="text" name="item4" id="item4">
+	  <button id="btnRom">Convert</button>
+	</div>
+	<p class="result" id="paraRom"></p>
+      </div>
+    </section>
+    <section>
+      <div class="wrap1">
+	<h1>Tel number validation</h1>
+	<p class="descr">valid formats for US numbers: 555-555-5555, (555)555-5555, (555) 555-5555, 555 555 5555, 5555555555, 1 555 555 5555</p>
+	<div class="label">
+	  <label for="item5">Enter tel number:</label>
+	  <input type="text" name="item5" id="item5">
+	  <button id="btnTel">Check</button>
+	</div>
+	<p class="result" id="paraTel"></p>
+      </div>
+    </section>
+    <script type="module" src='./main.js'></script>
+  </body>
+</html>
